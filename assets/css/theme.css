@@ -1,0 +1,359 @@
+.container {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.lead-small-text {
+  font-size: 80%;
+  text-align: center;
+  color: #84d125;
+  font-weight: 700;
+}
+
+.lead-large-text {
+  font-size: 250%;
+  text-align: center;
+  color: #131b3b;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+/*=============================================
+      =            header            =
+      =============================================*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  font-family: "Roboto", sans-serif;
+}
+
+#header .m-auto .nav-link {
+  padding: .5rem 1rem;
+  color: #F18B00;
+  font-weight: 500;
+}
+
+#header .social-Links a {
+  color: #131b3b;
+  text-decoration: none;
+}
+
+#header .social-Links a span {
+  padding: 10px;
+  background: #f18b00;
+  border-radius: 50%;
+  color: white;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 100ms;
+  transition: -webkit-transform 100ms;
+  transition: transform 100ms;
+  transition: transform 100ms, -webkit-transform 100ms;
+}
+
+/*=====  End of header  ======*/
+.sect-space {
+  padding: 40px 0;
+}
+
+#hero-wrapper .carousel-caption {
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+#hero-wrapper .carousel-caption p {
+  font-size: 180%;
+  font-weight: 500;
+}
+
+#hero-wrapper .carousel-caption h1 {
+  font-size: 300%;
+  font-weight: 800;
+}
+
+.guideline-description {
+  padding: 5px 20px;
+}
+
+.guideline-description p {
+  font-size: 115%;
+  margin-bottom: 20px;
+}
+
+.guideline-description a {
+  background-color: #F18B00;
+  width: 100px;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#services {
+  background-color: #EFEFEF;
+}
+
+#services .card-img-overlay {
+  padding: 0;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#services a {
+  background-color: transparent;
+  width: 100px;
+  padding: 5px 20px;
+  font-size: 120%;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #F18B00;
+}
+
+#services .link-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#sales .card-img-overlay {
+  padding: 0;
+}
+
+#sales .sales-detail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#sales h1 {
+  font-size: 250%;
+  font-weight: 600;
+  text-align: center;
+}
+
+#sales a {
+  background-color: #F18B00;
+  width: 220px;
+  padding: 10px 30px;
+  font-size: 130%;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#sales .sale-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.address-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+
+/*=============================================
+=                   footer                   =
+=============================================*/
+footer {
+  position: relative;
+  z-index: -99999;
+  background-color: black;
+  color: white;
+}
+
+footer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .col-md-4 .company-wrapper p {
+  font-size: 95%;
+}
+
+footer .col-md-4 .company-wrapper ul li {
+  padding: 10px 0;
+}
+
+footer .col-md-4 .company-wrapper ul li a {
+  text-decoration: none;
+  font-size: 85%;
+  color: white;
+}
+
+footer .col-md-4 .company-wrapper ul li a span {
+  font-size: 120%;
+  margin-right: 5px;
+}
+
+footer .col-md-4 .news-feed-wrapper h5 {
+  position: relative;
+}
+
+footer .col-md-4 .news-feed-wrapper ul {
+  margin-top: 20px;
+}
+
+footer .col-md-4 .news-feed-wrapper ul :nth-child(1)::after {
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 18px;
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
+footer .col-md-4 .news-feed-wrapper ul :nth-child(2)::after {
+  position: absolute;
+  content: "";
+  top: 95px;
+  left: 18px;
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
+footer .col-md-4 .news-feed-wrapper ul :nth-child(3)::after {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 18px;
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
+footer .col-md-4 .news-feed-wrapper ul :nth-child(4)::after {
+  position: absolute;
+  content: "";
+  top: 205px;
+  left: 18px;
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
+footer .col-md-4 .news-feed-wrapper ul li {
+  padding: 15px 0;
+}
+
+footer .col-md-4 .news-feed-wrapper ul li a {
+  text-decoration: none;
+  font-size: 80%;
+  color: white;
+  margin-right: 10px;
+}
+
+footer .col-md-4 .news-feed-wrapper ul li a span {
+  font-size: 120%;
+  margin-right: 5px;
+}
+
+footer .col-md-4 .news-feed-wrapper ul::before {
+  position: absolute;
+  content: "";
+  top: 260px;
+  left: 18px;
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
+footer .col-md-4 .news-later form .form-control:focus {
+  background-color: white;
+  border-color: white;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer .col-md-4 .news-later form input {
+  color: #ebebeb;
+  border-color: #ebebeb;
+  border-radius: 5px 0px 0px 5px;
+}
+
+footer .col-md-4 .news-later form .btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #F18B00;
+  color: white;
+}
+
+footer .col-md-4 .news-later :nth-child(4) {
+  margin: 20px 0;
+}
+
+footer .col-md-4 .news-later .row .col-4,
+footer .col-md-4 .news-later .row .col-2 {
+  padding: 5px 10px;
+  margin: 0;
+  color: #ebebeb;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 80%;
+  margin-right: 10px;
+}
+
+#scroll-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 50px;
+  margin-left: auto;
+  opacity: 0;
+  margin-right: 10px;
+}
+
+#scroll-wrapper span {
+  padding: 15px;
+  background-color: #F18B00;
+  color: white;
+  border-radius: 5px;
+}
+
+#scroll-wrapper.active {
+  opacity: 1;
+}
+
+/*============  End of footer  =============*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #header .social-Links {
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=theme.css.map */

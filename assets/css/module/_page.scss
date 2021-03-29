@@ -1,0 +1,99 @@
+.sect-space {
+    padding: 40px 0;
+}
+
+#hero-wrapper {
+    .carousel-caption {
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        p {
+            font-size: 180%;
+            font-weight: 500;
+        }
+        h1 {
+            font-size: 300%;
+            font-weight: 800;
+        }
+    }
+}
+
+.guideline-description {
+    padding: 5px 20px;
+    p {
+        font-size: 115%;
+        margin-bottom: 20px;
+    }
+    a {
+        background-color: $orange;
+        width: 100px;
+        padding: 15px 20px;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+
+#services {
+    background-color: $sect;
+    .card-img-overlay {
+        padding: 0;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    a {
+        background-color: transparent;
+        width: 100px;
+        padding: 5px 20px;
+        font-size: 120%;
+        color: white;
+        text-decoration: none;
+        border: 2px solid $orange;
+    }
+    .link-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#sales {
+    .card-img-overlay {
+        padding: 0;
+    }
+    .sales-detail {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        font-size: 250%;
+        font-weight: 600;
+        text-align: center;
+    }
+    a {
+        background-color: $orange;
+        width: 220px;
+        padding: 10px 30px;
+        font-size: 130%;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .sale-inner {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.address-wrapper {
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}

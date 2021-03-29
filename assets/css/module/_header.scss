@@ -1,0 +1,58 @@
+      .container {
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+      }
+      
+      body {
+          margin: 0;
+          padding: 0;
+      }
+      
+      .lead-small-text {
+          font-size: 80%;
+          text-align: center;
+          color: $green;
+          font-weight: 700;
+      }
+      
+      .lead-large-text {
+          font-size: 250%;
+          text-align: center;
+          color: $black;
+          font-weight: 900;
+          margin-bottom: 50px;
+      }
+      /*=============================================
+      =            header            =
+      =============================================*/
+      
+      body {
+          margin: 0;
+          padding: 0;
+      }
+      
+      #header {
+          font-family: "Roboto", sans-serif;
+          .m-auto {
+              .nav-link {
+                  padding: .5rem 1rem;
+                  color: $orange;
+                  font-weight: 500;
+              }
+          }
+          .social-Links {
+              a {
+                  color: $black;
+                  text-decoration: none;
+                  span {
+                      padding: 10px;
+                      background: rgba($orange, $alpha: 1);
+                      border-radius: 50%;
+                      color: white;
+                      transform: scale(1);
+                      transition: transform 100ms;
+                  }
+              }
+          }
+      }
+      /*=====  End of header  ======*/
